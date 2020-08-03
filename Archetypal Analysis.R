@@ -1,6 +1,8 @@
+# Load dependency libraries
 library("archetypes")
 library("readxl")
 
+# Read data set. Change the name of the file to load your own data set
 td <- read_excel("dataset_java_25.xlsx")
 td <- data.frame(td)
 str(td)
@@ -53,5 +55,6 @@ for (i in 1:length(DifProjects)){
   abest <- bestModel(as[[8]])
   rm(a1,a2,a3,a4,a5,a6,a7,a9,a10)
   
+  # export RData image to be imported into the TD Benchmarker
   save.image(file = paste0(DifProjects[i],".RData"))
 }
