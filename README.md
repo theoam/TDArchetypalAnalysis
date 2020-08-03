@@ -10,7 +10,7 @@ For any issues regarding replication do not hesitate to contact us. Particularly
 ## R Script: Archetypal Analysis on data sets
 
 - Windows 10 was used as the primary operating system.
-- R version: XXX
+- R version: 3.6.X
 - For the execution of the R script, please advise the inline comments.
 
 After running the R script and conducting the Archetypal Analysis on the data sets, we obtained the RData image for each examined system.
