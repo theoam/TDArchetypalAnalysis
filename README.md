@@ -11,10 +11,11 @@ For any issues regarding replication do not hesitate to contact us. Particularly
 
 - Windows 10 was used as the primary operating system.
 - R version: XXX
+- For the execution of the R script, please advice the inline comments.
 
 After running the R script and conducting the Archetypal Analysis on the data sets, we obtained the RData image for each examined system.
 These RData images were imported in the TD Benchmarker tool (<https://github.com/theoam/TDBenchmarker>).
 
 ## License
 
-This data set and the respective scripts are licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/legalcode)
+This data set and the R script are licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/legalcode)
