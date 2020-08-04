@@ -7,6 +7,16 @@ The paper has been accepted for publication at Springer's Empirical Software Eng
 
 For any issues regarding replication do not hesitate to contact us. Particularly, for issues regarding the data sets please contact Dr. Theodoros Amanatidis at <tamanatidis@uom.edu.gr>. For issues regarding the R script please contact Dr. Nikolaos Mittas at <nmittas@chem.ihu.gr>.
 
+If you use or refer to this replication package (data sets and script), please cite our paper using the following BibTex entry.
+```
+@article {tdbenchmark2020,
+    author  = {Theodoros Amanatidis and Nikolaos Mittas and Athanasia Moschou and Alexander Chatzigeorgiou and Apostolos Ampatzoglou and Lefteris Angelis},
+    title   = {Evaluating the Agreement among Technical Debt Measurement Tools: Building an Empirical Benchmark of Technical Debt Liabilities},
+    journal = {Empirical Software Engineering},
+    year    = {2020}
+}
+```
+
 ## R Script: Archetypal Analysis on data sets
 
 - Windows 10 was used as the primary operating system.
