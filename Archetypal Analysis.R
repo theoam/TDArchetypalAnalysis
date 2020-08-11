@@ -1,4 +1,15 @@
-# Load dependency libraries
+# set working directory the root folder of the repo, for example:
+setwd("~/Downloads/theoam-TDArchetypalAnalysis-00bdf69")
+
+# Load dependency libraries (install them first if not available)
+if(!require("archetypes")){
+  install.packages("archetypes", dep=T)
+}
+
+if(!require("readxl")){
+  install.packages("readxl", dep=T)
+}
+
 library("archetypes")
 library("readxl")
 
